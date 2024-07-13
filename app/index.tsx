@@ -1,8 +1,13 @@
-import { Redirect } from "expo-router";
-import React from "react";
-import { Text, View } from "react-native";
+import React from 'react';
+import { NavigationContainer } from '@react-navigation/native';
+import TabLayout from './(tabs)/_layout';
 
-const StartPage=()=>{
-  return <Redirect href={"/Mail"}/>
-}
-export default StartPage;
+const App = () => {
+  return (
+    <NavigationContainer independent={true} >
+      <TabLayout />
+    </NavigationContainer>
+  );
+};
+
+export default App;

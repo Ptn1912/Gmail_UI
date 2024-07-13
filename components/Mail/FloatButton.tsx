@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom:20,
     right: 20,
-    backgroundColor: 'transparent', // Nếu muốn nền trong suốt
+    backgroundColor: 'transparent', 
   },
   button: {
     justifyContent: 'center',
