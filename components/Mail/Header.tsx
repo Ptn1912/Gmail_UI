@@ -8,7 +8,7 @@ const Header = () => {
     <View style={{ padding: 20, paddingBottom: 0 }}>
       <View style={styles.container}>
         <Ionicons name="menu" size={30} />
-        <TextInput style={styles.input} placeholder="Search" />
+        <TextInput style={styles.input} placeholder="メールを検索" />
         <OcticonsIcon
           style={styles.icon}
           name="feed-person"
